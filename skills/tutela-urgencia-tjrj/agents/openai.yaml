@@ -1,0 +1,8 @@
+interface:
+  display_name: "Tutela Urgencia TJRJ"
+  short_description: "Tutela de urgencia no contencioso civel"
+  default_prompt: "Use $tutela-urgencia-tjrj to analyze and draft a TJRJ urgent-relief ruling."
+
+policy:
+  allow_implicit_invocation: true
+

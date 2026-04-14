@@ -1,0 +1,7 @@
+interface:
+  display_name: "Preprocessamento TJRJ"
+  short_description: "Baixa PDF e gera JSON antes da analise"
+  default_prompt: "Use $preprocessamento-processos-tjrj to run the preprocessing pipeline before the judicial-analysis automation."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Revisor Base TJRJ"
+  short_description: "Regras transversais para minutas do TJRJ"
+  default_prompt: "Use $revisor-base-tjrj to apply the shared TJRJ drafting and validation rules."
+
+policy:
+  allow_implicit_invocation: true
+

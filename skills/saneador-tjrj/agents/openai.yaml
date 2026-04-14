@@ -1,0 +1,8 @@
+interface:
+  display_name: "Saneador TJRJ"
+  short_description: "Saneadoras civeis e do Nucleo 4.0"
+  default_prompt: "Use $saneador-tjrj to draft a saneadora for a civil case or a 3o Nucleo 4.0 case."
+
+policy:
+  allow_implicit_invocation: true
+

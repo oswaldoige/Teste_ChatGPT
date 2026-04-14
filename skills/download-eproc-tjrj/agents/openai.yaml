@@ -1,0 +1,7 @@
+interface:
+  display_name: "Download eproc TJRJ"
+  short_description: "Baixa PDFs do eproc por lista"
+  default_prompt: "Use $download-eproc-tjrj to download full process PDFs from TJRJ eproc from a provided process list."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Validacao Juris Sentenca TJRJ"
+  short_description: "Valida sentencas com jurisprudencia oficial"
+  default_prompt: "Use $validacao-juris-sentenca-tjrj to validate a drafted TJRJ civil sentence with recent official TJRJ, STJ, and STF precedents."
+
+policy:
+  allow_implicit_invocation: true

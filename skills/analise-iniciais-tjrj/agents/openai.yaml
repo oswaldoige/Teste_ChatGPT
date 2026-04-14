@@ -1,0 +1,8 @@
+interface:
+  display_name: "Analise Iniciais TJRJ"
+  short_description: "Analise de iniciais civeis do TJRJ"
+  default_prompt: "Use $analise-iniciais-tjrj to analyze a newly filed case and choose the correct initial judicial act."
+
+policy:
+  allow_implicit_invocation: true
+

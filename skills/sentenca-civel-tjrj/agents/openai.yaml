@@ -1,0 +1,8 @@
+interface:
+  display_name: "Sentenca Civel TJRJ"
+  short_description: "Sentencas civeis padronizadas do TJRJ"
+  default_prompt: "Use $sentenca-civel-tjrj to draft a civil judgment with the correct TJRJ structure and variants."
+
+policy:
+  allow_implicit_invocation: true
+

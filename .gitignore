@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Node and frontend residue
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.lock
+*.pid
+*.seed
+*.stackdump
+tmp/
+temp/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+*.lnk
+~$*
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OneDrive and Windows sync residue
+*.cloudf
+*.tmp.drivedownload
+*.tmp.driveupload
+
+# Local secrets and machine-specific config
+.env
+.env.*
+*.local
+*.secret
+*.secrets
+
+# Operational inputs and generated outputs
+02_EXECUCAO_OPERACIONAL/entrada_json/*
+!02_EXECUCAO_OPERACIONAL/entrada_json/.gitkeep
+
+02_EXECUCAO_OPERACIONAL/controle/temp/
+02_EXECUCAO_OPERACIONAL/controle/temp_revisoes/
+02_EXECUCAO_OPERACIONAL/controle/lote_teste_*.txt
+02_EXECUCAO_OPERACIONAL/tmp_*.txt
+02_EXECUCAO_OPERACIONAL/*.png
+
+02_EXECUCAO_OPERACIONAL/saida_docx/*
+!02_EXECUCAO_OPERACIONAL/saida_docx/.gitkeep
+
+# Generated gates, notes, and ad hoc scripts outside the canonical flow
+*.gate.json
+tmp_*.txt
+
+# Root-level case artifacts and local scratch files
+depoimento_*.docx
+/COMANDO_PADRAO_CIVEL.txt
+/Executar automacao revisor. Use ape.txt
+
+# Archives and binaries that should not go to the repo
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.msi
+
+# Keep canonical gabinete models and curated .docx files versioned.
+# Do not ignore .docx globally; only generated outputs are excluded above.

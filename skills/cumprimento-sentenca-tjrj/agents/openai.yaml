@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cumprimento Sentenca TJRJ"
+  short_description: "Cumprimento de sentenca e impugnacoes"
+  default_prompt: "Use $cumprimento-sentenca-tjrj to analyze and draft rulings in compliance-of-judgment proceedings."
+
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,11 @@
+Executar automacao revisor em modo estrito. Usar apenas as skills e modelos locais deste repositorio. Antes de redigir, aplicar obrigatoriamente o gate de fluxo estrito: fechar sistema, fase exata, ultimo ato relevante, peticoes posteriores, pendencia condicionante e modelo-base exato. Somente gerar o `.docx` depois de preencher e validar o gate sidecar `.gate.json` correspondente ao arquivo-fonte da minuta. Priorizar o nucleo operacional, manter aderencia maxima aos modelos canonicos ja aprovados, preservar redacao continua e conectiva do gabinete, evitar improviso de estilo, nao deferir originariamente inversao do onus da prova na sentenca e validar acentuacao/PT-BR antes da entrega. Se a hipotese for recorrente, registrar e reaproveitar o padrao da familia correspondente.
+
+Se for hipotese de agua e esgoto com nova cobranca excessiva na mesma unidade ja litigada antes, usar o padrao canonico dessa subfamilia.
+
+Se for feito do 3o Nucleo 4.0 de agua e esgoto com contestacao ja apresentada e peticao posterior alegando cumprimento de tutela, usar o padrao registrado de decisao de replica do nucleo, com ciencia da redistribuicao e das decisoes de origem, anotacao de patrono, bloco +Acordo, replica, manifestacao sobre o alegado cumprimento da tutela e especificacao de provas.
+
+Se for feito do 3o Nucleo 4.0 de agua e esgoto ja com contestacao e replica, e a fase correta for saneamento para abertura de provas, usar preferencialmente o modelo EM - PROVAS - COM - SANEAMENTO, mantendo sua macroestrutura curta e propria do nucleo. Se o patrono ja estiver cadastrado, registrar apenas que a anotacao/resta prejudicada, sem nova determinacao redundante.
+
+Se houver peticao posterior da parte autora com conteudo material de replica, nao reabrir replica. Nessa hipotese, reclassificar a fase para o proximo passo real, em regra saneamento com provas ou sentenca, conforme a maturidade do feito.
+
+Depois deste comando-base, informar apenas o numero do processo, o arquivo .json/.md ou a pasta a ser analisada.

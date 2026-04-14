@@ -1,0 +1,3 @@
+Executar automacao revisor. Use apenas as skills locais do revisor-processual-tjrj espelhadas neste repositorio, ignore qualquer outra automacao/projeto, analise somente os arquivos `.json` da pasta `02_EXECUCAO_OPERACIONAL\entrada_json`, priorize os modelos da pasta `modelos`, complemente, se necessario, com `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS`, e gere os provimentos finais em `.docx` na pasta `saida_docx`.
+
+Se a rodada for feita diretamente na pasta geral, substitua a pasta `entrada_json` pela pasta efetivamente usada na leva.

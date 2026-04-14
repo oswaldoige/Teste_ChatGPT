@@ -1,0 +1,4 @@
+interface:
+  display_name: "Registro Padroes Sentenca TJRJ"
+  short_description: "Cataloga hipoteses recorrentes e modelos de sentenca"
+  default_prompt: "Use $registro-padroes-sentenca-tjrj to register a recurring TJRJ sentence hypothesis and update the canonical model map."

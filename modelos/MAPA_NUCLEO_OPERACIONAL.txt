@@ -1,0 +1,40 @@
+NUCLEO OPERACIONAL DE MODELOS
+
+Finalidade
+- Concentrar os modelos canonicos efetivamente usados pela automacao do revisor.
+- Reduzir a busca operacional a poucos caminhos previsiveis.
+- Manter o restante de AUTOMACAO_MODELOS como acervo de consulta, sem apagar conhecimento ja acumulado.
+
+Regra de uso
+1. Identificar o provimento principal: tutela, saneador ou sentenca.
+2. Identificar a macrofamilia material: consumidor, civel contratual ou Fazenda Publica.
+3. Procurar primeiro na pasta correspondente deste nucleo operacional.
+4. Se nao houver modelo canonico aderente, escalar para 00_PRIORITARIOS_AUTOMACAO.
+5. Persistindo a ausencia de aderencia, consultar as pastas especializadas e, so depois, o acervo correlato.
+
+Estrutura
+- 01_TUTELA
+  - 01_CONSUMIDOR
+  - 02_CIVEL_CONTRATUAL
+  - 03_FAZENDA_PUBLICA
+- 02_SANEADOR
+  - 01_CONSUMIDOR
+  - 02_CIVEL_CONTRATUAL
+  - 03_FAZENDA_PUBLICA
+- 03_SENTENCA
+  - 01_CONSUMIDOR
+  - 02_CIVEL_CONTRATUAL
+  - 03_FAZENDA_PUBLICA
+- 90_BLOCOS_REUTILIZAVEIS
+  - 01_CONSUMIDOR
+  - 02_CIVEL_CONTRATUAL
+  - 03_FAZENDA_PUBLICA
+
+Meta de curadoria
+- Cada pasta de provimento/familia deve ter, em regra, de 3 a 6 modelos canonicos, conforme a recorrencia da materia e a necessidade de preservar o padrao do gabinete.
+- O nucleo deve continuar curado, mas nao artificialmente enxuto a ponto de apagar aberturas, cadencias e fundamentos padronizados que ja funcionam bem.
+- Variacoes pequenas nao devem virar novos modelos inteiros; devem migrar para blocos reutilizaveis, especialmente quando a oscilacao estiver concentrada na abertura da fundamentacao, no onus da prova ou no dispositivo.
+- Familias repetitivas que pedem tratamento proprio continuam podendo existir, mas como refinamento dentro da macrofamilia, e nao como nova floresta de pastas.
+- O acervo antigo permanece vivo como biblioteca de consulta e comparacao, sem ser mais o ponto de partida da automacao.
+- Hipoteses repetitivas de sentenca que ultrapassem simples variacao redacional devem ser registradas em mapa proprio da familia e, quando necessario, receber um novo modelo canonico e bloco reutilizavel especifico.
+- Na familia `03_SENTENCA/01_CONSUMIDOR`, consultar tambem `REGISTRO_HIPOTESES_RECORRENTES_CONSUMIDOR.md` sempre que surgir caso novo semelhante a matriz ja aprovada pelo usuario.

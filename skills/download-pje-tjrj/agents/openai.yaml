@@ -1,0 +1,7 @@
+interface:
+  display_name: "Download PJe TJRJ"
+  short_description: "Baixa PDFs do PJe por lista"
+  default_prompt: "Use $download-pje-tjrj to download full process PDFs from TJRJ PJe from a provided process list."
+
+policy:
+  allow_implicit_invocation: false

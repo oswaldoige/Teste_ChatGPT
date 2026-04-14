@@ -1,0 +1,7 @@
+interface:
+  display_name: "PDF para JSON TJRJ"
+  short_description: "Converte PDFs em triagem JSON"
+  default_prompt: "Use $pdf-json-triagem-tjrj to convert downloaded judicial PDFs into .triagem.json files."
+
+policy:
+  allow_implicit_invocation: false

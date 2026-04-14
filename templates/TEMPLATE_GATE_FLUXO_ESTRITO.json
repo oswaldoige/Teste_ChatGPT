@@ -1,0 +1,13 @@
+{
+  "sistema": "preencher: PJe ou eproc/TJRJ",
+  "fase_e_ato_cabivel": "preencher: fase exata + ato cabivel",
+  "ultimo_ato_relevante": "preencher: ultimo ato judicial relevante",
+  "peticoes_posteriores": [
+    "preencher: peticoes/incidentes posteriores enfrentados"
+  ],
+  "pendencia_condicionante": "preencher: nenhuma identificada, ou descrever a pendencia",
+  "modelo_base_path": "preencher: caminho absoluto do modelo-base utilizado",
+  "preflight_confirmado": true,
+  "postflight_confirmado": true,
+  "observacoes": "opcional"
+}

@@ -1,0 +1,21 @@
+GUIA RAPIDO - FUNDAMENTACAO CONSUMIDOR
+
+Objetivo
+- Preservar a abertura padrao da fundamentacao consumerista em sentencas do gabinete.
+- Evitar que a automacao substitua uma formula canonica por prosa generica.
+
+Ordem de uso
+1. Escolher o modelo canonico consumerista mais aderente.
+2. Ler este guia e o bloco correspondente ao caso.
+3. Adaptar apenas fatos, IDs, decisao previa sobre CDC/inversao e conclusao concreta.
+4. Se a causa misturar CDC com outro regime, manter a abertura padrao e explicitar logo depois a cisao de regimes.
+
+Blocos disponiveis
+- BLOCO 01 - julgamento antecipado + CDC expresso.
+- BLOCO 02 - inversao nao deferida + onus probatorio da re.
+- BLOCO 03 - inversao deferida ou ope legis + consequencia probatoria.
+
+Notas operacionais
+- Quando houver decisao previa reconhecendo CDC ou invertendo o onus da prova, citar o respectivo ID.
+- Em telecomunicacoes, negativacao, cobranca indevida, servicos bancarios, concessionarias e falha operacional, preservar a ponte expressa entre CDC, defeito do servico e onus probatorio.
+- Nao substituir o bloco por resumo generico do tipo "a materia e de consumo" quando o modelo-base trouxer formula mais canonica.

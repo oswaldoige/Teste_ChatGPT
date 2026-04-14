@@ -1,0 +1,7 @@
+interface:
+  display_name: "Orquestrador Gabinete TJRJ"
+  short_description: "Orquestra fluxos amplos sem alterar o core"
+  default_prompt: "Use $orquestrador-gabinete-tjrj to coordinate a broader gabinete workflow while preserving the core revisor-processual-tjrj automation."
+
+policy:
+  allow_implicit_invocation: false

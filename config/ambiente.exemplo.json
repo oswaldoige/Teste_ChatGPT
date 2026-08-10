@@ -1,5 +1,8 @@
 {
   "GABINETE_RAIZ_2026": "C:\\Users\\Oswaldo-Nitro\\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\\2026",
   "GABINETE_SKILLS": "C:\\Users\\Oswaldo-Nitro\\.codex\\skills",
-  "GABINETE_SAIDA": "C:\\Users\\Oswaldo-Nitro\\Documents\\AUTOMACAO_PRINCIPAL_LOCAL\\saida_docx"
+  "GABINETE_SAIDA": "C:\\Users\\Oswaldo-Nitro\\Documents\\AUTOMACAO_PRINCIPAL_LOCAL\\saida_docx",
+  "GABINETE_ACERVOS": [
+    "C:\\Users\\Oswaldo-Nitro\\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\\Antigravity\\AUTOMACAO_NOTEBOOK_LM\\AUTOMACAO_MODELOS"
+  ]
 }

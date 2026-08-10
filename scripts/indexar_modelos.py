@@ -56,11 +56,7 @@ def raizes_de_busca() -> list[Path]:
     o nucleo curado versionado no repositorio, que e o unico ponto de partida
     legitimo quando o acervo nao esta ao alcance.
     """
-    raizes = []
-    raiz_2026 = Path(ambiente.caminhos()["GABINETE_RAIZ_2026"])
-    acervo = raiz_2026 / "AUTOMACAO_MODELOS"
-    if acervo.is_dir():
-        raizes.append(acervo)
+    raizes = list(ambiente.acervos())
     nucleo = ambiente.RAIZ_REPO / "modelos"
     if nucleo.is_dir():
         raizes.append(nucleo)

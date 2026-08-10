@@ -37,6 +37,21 @@ SAIDA_LOCAL = r"C:\Users\Oswaldo-Nitro\Documents\AUTOMACAO_PRINCIPAL_LOCAL\saida
 
 VARIAVEIS = ("GABINETE_RAIZ_2026", "GABINETE_SKILLS", "GABINETE_SAIDA")
 
+# O acervo amplo nao esta sob `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS`, como a
+# documentacao antiga supunha: a arvore do OneDrive foi reorganizada e a copia
+# canonica, unica que preserva as datas reais de modificacao e o nucleo
+# operacional, ficou sob `Antigravity`.
+#
+# Existe uma segunda copia em `2026\_arquivo\Auto_Minimax\AUTOMACAO_MODELOS`,
+# deliberadamente fora do padrao: e subconjunto estrito da canonica e teve todas
+# as datas achatadas na copia em massa de 2026-03-23. Indexa-la duplicaria o
+# acervo com datas falsas e quebraria a ordenacao por mais recente, que e a
+# preferencia registrada do magistrado. Quem precisar dela deve declarar
+# `GABINETE_ACERVOS` explicitamente.
+ACERVOS_LOCAIS = (
+    r"C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\Antigravity\AUTOMACAO_NOTEBOOK_LM\AUTOMACAO_MODELOS",
+)
+
 PADRAO_VARIAVEL = re.compile(r"\$\{(GABINETE_[A-Z0-9_]+)\}")
 
 
@@ -92,9 +107,40 @@ def resolver(texto: str) -> str:
     return PADRAO_VARIAVEL.sub(lambda m: valores.get(m.group(1), m.group(0)), texto)
 
 
+def acervos() -> list[Path]:
+    """Devolve as raizes do acervo amplo que existem neste ambiente.
+
+    Precedencia igual a das demais variaveis, com a diferenca de que o valor e
+    uma lista: a variavel de ambiente `GABINETE_ACERVOS` aceita varios caminhos
+    separados por `os.pathsep`, e a chave de mesmo nome em `config/ambiente.json`
+    aceita lista ou caminho unico.
+    """
+    bruto = os.environ.get("GABINETE_ACERVOS")
+    if bruto:
+        candidatos = [c for c in bruto.split(os.pathsep) if c.strip()]
+    else:
+        do_config = _config_local().get("GABINETE_ACERVOS")
+        if isinstance(do_config, str):
+            candidatos = [do_config]
+        elif isinstance(do_config, list):
+            candidatos = [str(c) for c in do_config]
+        else:
+            candidatos = [
+                str(Path(caminhos()["GABINETE_RAIZ_2026"]) / "AUTOMACAO_MODELOS"),
+                *ACERVOS_LOCAIS,
+            ]
+
+    encontrados = []
+    for candidato in candidatos:
+        caminho = Path(candidato)
+        if caminho.is_dir() and caminho not in encontrados:
+            encontrados.append(caminho)
+    return encontrados
+
+
 def acervo_completo_disponivel() -> bool:
     """Indica se o acervo amplo `AUTOMACAO_MODELOS` esta acessivel."""
-    return (Path(caminhos()["GABINETE_RAIZ_2026"]) / "AUTOMACAO_MODELOS").is_dir()
+    return bool(acervos())
 
 
 def relatorio() -> dict:
@@ -102,6 +148,7 @@ def relatorio() -> dict:
     return {
         "ambiente": "local" if ambiente_local() else "nuvem",
         "acervo_completo_disponivel": acervo_completo_disponivel(),
+        "acervos": [str(a) for a in acervos()],
         "nucleo_curado": str(RAIZ_REPO / "modelos"),
         "caminhos": valores,
     }
@@ -118,6 +165,8 @@ def main(argv: list[str]) -> int:
         print(f"  {nome} = {valor}")
     if dados["acervo_completo_disponivel"]:
         print("\nAcervo AUTOMACAO_MODELOS disponivel. Busca ampla liberada.")
+        for acervo in dados["acervos"]:
+            print(f"  {acervo}")
     else:
         print(
             "\nAcervo AUTOMACAO_MODELOS indisponivel neste ambiente."

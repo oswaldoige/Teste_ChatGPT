@@ -65,6 +65,17 @@ consequencias de observancia obrigatoria:
    nucleo. O despacho inicial de procedimento comum e o exemplo mais frequente:
    seu modelo-base vive na curadoria reduzida, fora do repositorio.
 
+## Indice de modelos
+
+`scripts/indexar_modelos.py` varre as raizes disponiveis no ambiente e grava
+`config/indice_modelos.json`, com nome, pasta tematica, caminho e data de cada
+modelo. O indice nao e versionado, por conter caminhos da maquina local, e deve
+ser regerado quando o acervo mudar.
+
+A busca ordena por aderencia ao termo e, em empate, pela data de modificacao,
+atendendo a preferencia pelos modelos mais recentes. O objetivo e permitir a
+leitura de um unico modelo-base por minuta, em vez do carregamento do acervo.
+
 ## Dados sensiveis
 
 O ambiente de nuvem executa em container efemero e o repositorio e remoto. Nada

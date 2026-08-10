@@ -59,6 +59,7 @@ ehthumbs.db
 
 # Local secrets and machine-specific config
 config/ambiente.json
+config/indice_modelos.json
 .env
 .env.*
 *.local

@@ -26,6 +26,19 @@ Quando o acervo amplo estiver indisponivel, o nucleo curado em `modelos` e o
 unico ponto de partida, e a ausencia de modelo-base aderente deve ser declarada
 na entrega. Nao suprir modelo ausente com redacao autoral.
 
+## Busca de modelo
+
+O acervo nao deve ser lido por inteiro. A localizacao do modelo-base se faz pelo
+indice:
+
+```
+python scripts/indexar_modelos.py                       # gera ou atualiza o indice
+python scripts/indexar_modelos.py --buscar "despacho inicial"
+```
+
+Ler apenas o modelo apontado pela busca, e a partir dele redigir. Se a busca nao
+devolver modelo aderente, declarar a ausencia; nunca substituir por parafrase.
+
 ## Preferencias registradas do magistrado
 
 1. Entregar as minutas de todas as opcoes tecnicamente viaveis, e nao perguntar

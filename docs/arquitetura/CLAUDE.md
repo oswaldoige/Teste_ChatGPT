@@ -13,8 +13,8 @@ Este fluxo constitui o nucleo estavel (`core`) do revisor processual e nao deve 
 - Antes de redigir qualquer minuta, identifique a fase processual exata e mapeie os eventos processualmente relevantes mais recentes.
 - A automacao do revisor deve operar de forma isolada. Ignore projetos, topicos, pastas e automacoes laterais do Codex que nao pertencam ao fluxo `revisor-processual-tjrj`, salvo determinacao expressa e especifica do usuario.
 - E vedado usar como fonte, contexto ou guia de redacao qualquer conteudo oriundo de automacoes alheias ao revisor, inclusive pastas como `Download_Processos`, `Scalp_Smart` ou equivalentes, ainda que tenham sido clicadas ou abertas na interface.
-- Antes de redigir qualquer minuta, busque modelos e referencias na pasta `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS`, priorizando a subpasta tematica mais aderente ao caso concreto.
-- Antes de qualquer busca ampla, consulte primeiro a curadoria reduzida em `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`.
+- Antes de redigir qualquer minuta, busque modelos e referencias na pasta `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS`, priorizando a subpasta tematica mais aderente ao caso concreto.
+- Antes de qualquer busca ampla, consulte primeiro a curadoria reduzida em `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`.
 - A busca de modelos e obrigatoria e deve ocorrer depois da identificacao da fase processual e antes da redacao do provimento.
 - Sempre que houver subpasta especializada para a materia ou para o orgao julgador, ela prevalece sobre modelos genericos. Para feitos de agua e esgoto do 3o Nucleo de Justica 4.0 da Capital, priorize `...\AUTOMACAO_MODELOS\NÚCLEO 4.0`.
 - Na falta de modelo especializado suficiente, complemente a busca em `...\AUTOMACAO_MODELOS\modelos_variados` e, quando pertinente ao acervo do gabinete, em `...\AUTOMACAO_MODELOS\2a_civel`.
@@ -54,8 +54,8 @@ Este fluxo constitui o nucleo estavel (`core`) do revisor processual e nao deve 
 - Verificacao obrigatoria de precedentes vinculantes (Temas de Repetitivos/RG e Sumulas) com foco nos ultimos 24 meses
 - Aplicar distinguishing com precisao tecnica quando os fatos nao se amoldarem ao precedente
 - Se nao tiver certeza de um julgado, indicar "verificar no STJ/TJRJ" - jamais inventar jurisprudencia
-- Em `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados`, consulte, quando pertinente, os arquivos `98 - REFERENCIA - JTRAMOS.pdf` e `98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`, sobretudo em decisoes complexas e sentencas.
-- Em condenacoes civeis entre particulares, aplique tambem o guia interno `C:\Users\Oswaldo-Nitro\.codex\skills\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`, com separacao entre correcao monetaria e juros de mora, verificacao do marco de 30/08/2024 e preferencia por redacao objetiva do dispositivo.
+- Em `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados`, consulte, quando pertinente, os arquivos `98 - REFERENCIA - JTRAMOS.pdf` e `98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`, sobretudo em decisoes complexas e sentencas.
+- Em condenacoes civeis entre particulares, aplique tambem o guia interno `${GABINETE_SKILLS}\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`, com separacao entre correcao monetaria e juros de mora, verificacao do marco de 30/08/2024 e preferencia por redacao objetiva do dispositivo.
 
 ## INPUT PADRAO
 O magistrado fornece um dossie em formato JSON (pasta /processos). O dossie e a UNICA fonte de verdade sobre os fatos dos autos. Nunca invente fatos, datas ou numeros de processo.

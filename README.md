@@ -84,6 +84,8 @@ Pontos de referencia importantes:
 - Gate formal: `templates\TEMPLATE_GATE_FLUXO_ESTRITO.json`
 - Geracao de `.docx`: `scripts\make_docx.py`
 - Sumario de triagem: `scripts\summarize_triage.py`
+- Resolucao de ambiente: `scripts\ambiente.py` e `docs\arquitetura\AMBIENTE.md`
+- Carga do `core` em sessao remota: `CLAUDE.md` da raiz
 
 ## Como preparar o ambiente
 
@@ -100,6 +102,7 @@ A parametrizacao principal dos scripts permanentes ja foi feita. Ainda assim, a 
 2. Instalar as dependencias Python exigidas pelos scripts efetivamente usados.
 3. Conferir a disponibilidade local do `Tesseract OCR` e do `Poppler`, quando houver uso do pipeline PDF -> JSON.
 4. Evitar usar o OneDrive como destino principal de arquivos finais quando houver pasta local fisica preferencial configurada.
+5. Conferir a resolucao de caminhos com `python scripts/ambiente.py` antes da primeira rodada em uma maquina nova ou em sessao remota. Se quiser fixar caminhos proprios, copiar `config\ambiente.exemplo.json` para `config\ambiente.json` e ajustar.
 
 ## Como rodar
 

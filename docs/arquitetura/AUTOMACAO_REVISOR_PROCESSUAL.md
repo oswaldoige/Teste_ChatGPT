@@ -35,22 +35,22 @@ AUTOMACAO_PRINCIPAL/
 ```
 
 Saida local fisica recomendada para os `.docx`, fora do OneDrive:
-`C:\Users\Oswaldo-Nitro\Documents\AUTOMACAO_PRINCIPAL_LOCAL\saida_docx`
+`${GABINETE_SAIDA}`
 
 Nucleo operacional local de modelos:
 `modelos`
 
 Biblioteca obrigatoria de modelos:
-`C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS`
+`${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS`
 
 Arquitetura recomendada de skills:
-- `C:\Users\Oswaldo-Nitro\.codex\skills\revisor-base-tjrj`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\analise-iniciais-tjrj`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\tutela-urgencia-tjrj`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\saneador-tjrj`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\sentenca-civel-tjrj`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\validacao-juris-sentenca-tjrj`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\cumprimento-sentenca-tjrj`
+- `${GABINETE_SKILLS}\revisor-base-tjrj`
+- `${GABINETE_SKILLS}\analise-iniciais-tjrj`
+- `${GABINETE_SKILLS}\tutela-urgencia-tjrj`
+- `${GABINETE_SKILLS}\saneador-tjrj`
+- `${GABINETE_SKILLS}\sentenca-civel-tjrj`
+- `${GABINETE_SKILLS}\validacao-juris-sentenca-tjrj`
+- `${GABINETE_SKILLS}\cumprimento-sentenca-tjrj`
 
 Regra arquitetural:
 - a automacao deve sempre aplicar `revisor-base-tjrj` e, cumulativamente, a skill especifica da fase processual predominante;
@@ -65,10 +65,10 @@ Regra de isolamento operacional:
 - pastas e automacoes externas, como `Download_Processos`, `Scalp_Smart` e equivalentes, devem ser ignoradas por padrao, salvo ordem expressa e especifica do usuario para aquela execucao.
 
 Subpastas principais:
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NÚCLEO 4.0`
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel`
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados`
+- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
+- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0`
+- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel`
+- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados`
 
 Arquivos de referencia importantes em `modelos_variados`:
 - `98 - REFERENCIA - JTRAMOS.pdf`
@@ -149,13 +149,13 @@ Ordem de busca:
 
 Prioridades praticas:
 - Curadoria reduzida para atos recorrentes e padronizacao-base:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
+  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
 - Agua e esgoto / 3o Nucleo de Justica 4.0 / Comarca da Capital:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NÚCLEO 4.0`
+  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0`
 - Materias civeis gerais do acervo:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel`
+  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel`
 - Analogias, complementos e referencias gerais:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados`
+  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados`
 
 Regra minima de consulta:
 - ler ao menos um modelo-base do tipo de ato;
@@ -222,7 +222,7 @@ Regra de saida:
 - decisoes interlocutorias complexas: tambem 2 arquivos `.docx`, um completo e outro conciso;
 - despachos e decisoes simples: em regra, 1 arquivo `.docx`, salvo se a complexidade justificar dupla entrega ou se o usuario determinar de outro modo;
 - `.md` pode existir, no maximo, como rascunho interno ou etapa intermediaria, nunca como entrega final ao usuario.
-- por seguranca operacional, a gravacao padrao deve priorizar a pasta local fisica `C:\Users\Oswaldo-Nitro\Documents\AUTOMACAO_PRINCIPAL_LOCAL\saida_docx`, evitando dependencia direta da sincronizacao do OneDrive;
+- por seguranca operacional, a gravacao padrao deve priorizar a pasta local fisica `${GABINETE_SAIDA}`, evitando dependencia direta da sincronizacao do OneDrive;
 - a pasta `saida_docx`, dentro do OneDrive, deve ser tratada como opcional para copia posterior ou espelhamento manual, nao como destino unico obrigatorio.
 - sempre que a geracao final ocorrer pela ferramenta local `make_docx.py` com destino em `saida_docx`, sera obrigatoria a existencia de um arquivo sidecar `.gate.json` correspondente ao `.md` de origem, contendo formalmente: sistema, fase e ato cabivel, ultimo ato relevante, peticoes posteriores, pendencia condicionante, modelo-base utilizado e as confirmacoes de preflight e postflight;
 - sem esse gate sidecar validado, o `.docx` nao podera ser gerado.
@@ -293,7 +293,7 @@ Regra especifica da terceira versao de sentenca:
 - Aplicar distinguishing quando os fatos nao se amoldarem ao precedente.
 - Se houver duvida relevante de vigencia ou aderencia, sinalizar a necessidade de verificacao.
 - Em condenacoes e consectarios, consultar, quando pertinente, o arquivo `98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`.
-- Em condenacoes civeis entre particulares, consultar tambem o guia interno `C:\Users\Oswaldo-Nitro\.codex\skills\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`, separando correcao monetaria e juros de mora, verificando se ha periodo anterior a 30/08/2024 e preferindo formula objetiva no dispositivo.
+- Em condenacoes civeis entre particulares, consultar tambem o guia interno `${GABINETE_SKILLS}\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`, separando correcao monetaria e juros de mora, verificando se ha periodo anterior a 30/08/2024 e preferindo formula objetiva no dispositivo.
 - Em mapeamento tematico e referencias por ramos, consultar, quando pertinente, o arquivo `98 - REFERENCIA - JTRAMOS.pdf`.
 
 Observacao sobre atualizacao monetaria e juros:

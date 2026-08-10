@@ -9,127 +9,127 @@ Premissas
 
 01_TUTELA\\01_CONSUMIDOR
 CANONICO 01 - TUTELA - CONSUMIDOR - PLANO DE SAUDE - DEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA AUTISTA PLANO DE SAUDE COM COPARTICIPACAO DEFERE 0809757 68 2025 8 19 0045.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA AUTISTA PLANO DE SAUDE COM COPARTICIPACAO DEFERE 0809757 68 2025 8 19 0045.docx
 Racional: modelo forte para tutela consumerista em saude suplementar, com boa estrutura de probabilidade do direito, perigo de dano e ancoragem normativa.
 
 CANONICO 02 - TUTELA - CONSUMIDOR - NEGATIVACAO - INDEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA LIMPA NOME INDEFERE NOVO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA LIMPA NOME INDEFERE NOVO.docx
 Racional: matriz concisa e util para indeferimentos consumeristas de urgencia, especialmente quando a verossimilhanca e o perigo nao estao minimamente demonstrados.
 
 CANONICO 03 - TUTELA - CONSUMIDOR - DESCUMPRIMENTO - MAJORA MULTA.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NÚCLEO 4.0\13 - MODELO - DECISAO - TUTELA - DESCUMPRIMENTO E MAJORA MULTA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0\13 - MODELO - DECISAO - TUTELA - DESCUMPRIMENTO E MAJORA MULTA.docx
 Racional: matriz canonica para resposta judicial ao descumprimento de tutela em relacoes de consumo com astreintes e medidas coercitivas.
 
 01_TUTELA\\02_CIVEL_CONTRATUAL
 CANONICO 01 - TUTELA - CIVEL CONTRATUAL - RESTRICAO TRANSFERENCIA VEICULO.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\13 - DECISAO TUTELA RESTRICAO TRANSFERENCIA VEICULO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\13 - DECISAO TUTELA RESTRICAO TRANSFERENCIA VEICULO.docx
 Racional: modelo objetivo e ja priorizado pelo acervo para urgencia em litigios negociais sobre veiculo.
 
 CANONICO 02 - TUTELA - CIVEL CONTRATUAL - IMISSAO NA POSSE - DEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA IMISSAO NA POSSE DEFERE.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA IMISSAO NA POSSE DEFERE.docx
 Racional: boa matriz petitória e contratual-imobiliaria para urgencia possessoria fundada em dominio comprovado.
 
 CANONICO 03 - TUTELA - CIVEL CONTRATUAL - ANULATORIA CONTRATUAL - INDEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA ANULATORIA CONTRATO VICIO DE VONTADE COACAO DILACAO PROBATORIA INDEFERE.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA ANULATORIA CONTRATO VICIO DE VONTADE COACAO DILACAO PROBATORIA INDEFERE.docx
 Racional: matriz util para indeferir tutela em litigios contratuais que dependem de dilacao probatoria.
 
 01_TUTELA\\03_FAZENDA_PUBLICA
 CANONICO 01 - TUTELA - FAZENDA PUBLICA - INDEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA FAZENDA PUBLICA INDEFERE.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA FAZENDA PUBLICA INDEFERE.docx
 Racional: modelo claro para indeferimento com destaque das restricoes proprias de tutela contra a Fazenda Publica.
 
 CANONICO 02 - TUTELA - FAZENDA PUBLICA - MEDICAMENTO - DEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA MEDICAMENTO NOVISSIMO COM EXCLUSAO DO MUNICIPIO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA MEDICAMENTO NOVISSIMO COM EXCLUSAO DO MUNICIPIO.docx
 Racional: boa matriz atualizada para tutela de saude publica com ajuste de polo passivo e responsabilidade financeira.
 
 CANONICO 03 - TUTELA - FAZENDA PUBLICA - TRIBUTARIA SERVIDOR - DEFERE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA SUSPENDE IR SOBRE A GRATIFICACAO DE RISCO DA ATIVIDADE MILITAR DEFERE.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - TUTELA SUSPENDE IR SOBRE A GRATIFICACAO DE RISCO DA ATIVIDADE MILITAR DEFERE.docx
 Racional: matriz importante para urgencias fazendarias de servidor publico com pretensao tributaria ou remuneratoria.
 
 02_SANEADOR\\01_CONSUMIDOR
 CANONICO 01 - SANEADOR - CONSUMIDOR - EM PROVAS.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NÚCLEO 4.0\05 - MODELO - SANEADOR - EM PROVAS.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0\05 - MODELO - SANEADOR - EM PROVAS.docx
 Racional: matriz canonica para saneamento consumerista sem definicao imediata de pericia, abrindo especificacao probatoria.
 
 CANONICO 02 - SANEADOR - CONSUMIDOR - PERICIA E HONORARIOS.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados\10 - MODELO - SANEADOR - PERICIA E HONORARIOS.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados\10 - MODELO - SANEADOR - PERICIA E HONORARIOS.docx
 Racional: modelo forte para causas consumeristas tecnicas, com boa estrutura para pontos controvertidos, pericia e honorarios.
 
 CANONICO 03 - SANEADOR - CONSUMIDOR - VICIO OCULTO VEICULO.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR AUTOMOVEL VICIO OCULTO CARLOS AUGUSTO CARTORIO FISCALIZA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR AUTOMOVEL VICIO OCULTO CARLOS AUGUSTO CARTORIO FISCALIZA.docx
 Racional: caso representativo de vicio do produto/servico com delimitacao clara de pontos controvertidos e pericia.
 
 02_SANEADOR\\02_CIVEL_CONTRATUAL
 CANONICO 01 - SANEADOR - CIVEL CONTRATUAL - VICIO OCULTO ENTRE PARTICULARES.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR AUTOMOVEL VICIO OCULTO ENTRE PARTICULARES CARTORIO FISCALIZA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR AUTOMOVEL VICIO OCULTO ENTRE PARTICULARES CARTORIO FISCALIZA.docx
 Racional: matriz expressa de litigio entre particulares, com afastamento do CDC e enquadramento contratual-civil correto.
 
 CANONICO 02 - SANEADOR - CIVEL CONTRATUAL - RENOVATORIA DE ALUGUEL.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR RENOVATORIA ALUGUEL PERITO DANIEL.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR RENOVATORIA ALUGUEL PERITO DANIEL.docx
 Racional: modelo util para saneamento contratual-imobiliario com pericia avaliatoria.
 
 CANONICO 03 - SANEADOR - CIVEL CONTRATUAL - VICIO DE VONTADE - PROVA ORAL.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR VICIO DE VONTADE PROVA ORAL.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR VICIO DE VONTADE PROVA ORAL.docx
 Racional: boa matriz para litigios contratuais em que a instrucao oral e decisiva.
 
 02_SANEADOR\\03_FAZENDA_PUBLICA
 CANONICO 01 - SANEADOR - FAZENDA PUBLICA - INSS ACIDENTARIA.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR INSS ACIDENTARIA NOVO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR INSS ACIDENTARIA NOVO.docx
 Racional: matriz clara para acao previdenciaria/acidentaria com pericia e honorarios periciais especificos.
 
 CANONICO 02 - SANEADOR - FAZENDA PUBLICA - PASEP - PERICIA.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR REVISIONAL PASEP PERICIA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SANEADOR REVISIONAL PASEP PERICIA.docx
 Racional: modelo util para litigios de regime publico-financeiro com multiplas preliminares e necessidade de prova tecnica.
 
 03_SENTENCA\\01_CONSUMIDOR
 CANONICO 01 - SENTENCA - CONSUMIDOR - PLANO DE SAUDE.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\21 - MODELO - SENTENCA - PLANO DE SAUDE E BARIATRICA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\21 - MODELO - SENTENCA - PLANO DE SAUDE E BARIATRICA.docx
 Racional: matriz consumerista madura, com CDC expresso, dever de informacao e boa arquitetura para saude suplementar.
 
 CANONICO 02 - SENTENCA - CONSUMIDOR - FRAUDE BANCARIA E PIX.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\25 - MODELO - SENTENCA - BANCARIO - FRAUDE E PIX.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\25 - MODELO - SENTENCA - BANCARIO - FRAUDE E PIX.docx
 Racional: modelo forte para falha de seguranca, fraude bancaria e responsabilidade em transacoes PIX.
 
 CANONICO 03 - SENTENCA - CONSUMIDOR - AGUA E ESGOTO.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NÚCLEO 4.0\17 - MODELO - SENTENCA - CONSUMIDOR - AGUA E ESGOTO - PROCEDENCIA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0\17 - MODELO - SENTENCA - CONSUMIDOR - AGUA E ESGOTO - PROCEDENCIA.docx
 Racional: arquivo mestre especifico para relacoes de consumo em agua e esgoto, recorrencia alta e estrutura muito aderente.
 
 CANONICO 04 - SENTENCA - CONSUMIDOR - COBRANCA INDEVIDA E NEGATIVACAO.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\Auto_Minimax\AUTOMACAO_MODELOS\modelos_variados\13 - MODELO - SENTENCA - COBRANCA INDEVIDA E NEGATIVACAO.docx
+Origem: ${GABINETE_RAIZ_2026}\Auto_Minimax\AUTOMACAO_MODELOS\modelos_variados\13 - MODELO - SENTENCA - COBRANCA INDEVIDA E NEGATIVACAO.docx
 Racional: modelo robusto para descontos nao autorizados, declaratoria de inexistencia de debito, repeticao do indebito e danos morais, com boa abertura canonica de CDC e distribuicao de onus probatorio.
 
 CANONICO 05 - SENTENCA - CONSUMIDOR - TELECOMUNICACOES.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\Auto_Minimax\AUTOMACAO_MODELOS\modelos_variados\19 - MODELO - SENTENCA - TELECOMUNICACOES.docx
+Origem: ${GABINETE_RAIZ_2026}\Auto_Minimax\AUTOMACAO_MODELOS\modelos_variados\19 - MODELO - SENTENCA - TELECOMUNICACOES.docx
 Racional: modelo forte para contratacao impugnada, linha telefonica, internet e cobrancas correlatas, com abertura consumerista muito aderente ao padrao do gabinete.
 
 CANONICO 06 - SENTENCA - CONSUMIDOR - VEICULOS - VICIO E TRANSFERENCIA.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\Auto_Minimax\AUTOMACAO_MODELOS\modelos_variados\21 - MODELO - SENTENCA - VEICULOS - VICIO E TRANSFERENCIA.docx
+Origem: ${GABINETE_RAIZ_2026}\Auto_Minimax\AUTOMACAO_MODELOS\modelos_variados\21 - MODELO - SENTENCA - VEICULOS - VICIO E TRANSFERENCIA.docx
 Racional: modelo util para litigios sobre gravame, vicio do servico, impedimento de transferencia e defeitos operacionais incidentes sobre veiculos, ampliando a cobertura da frente consumerista.
 
 03_SENTENCA\\02_CIVEL_CONTRATUAL
 CANONICO 01 - SENTENCA - CIVEL CONTRATUAL - MONITORIA.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\09 - SENTENCA MONITORIA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\09 - SENTENCA MONITORIA.docx
 Racional: modelo priorizado e util para cobranca escrita e embargos monitorios.
 
 CANONICO 02 - SENTENCA - CIVEL CONTRATUAL - IMOVEIS LOCACAO E CONDOMINIO.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\30 - MODELO - SENTENCA - IMOVEIS - LEILAO LOCACAO E CONDOMINIO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\30 - MODELO - SENTENCA - IMOVEIS - LEILAO LOCACAO E CONDOMINIO.docx
 Racional: matriz contratual-imobiliaria ampla, com boa cobertura para locacao, leilao e controversias correlatas.
 
 CANONICO 03 - SENTENCA - CIVEL CONTRATUAL - CONTRATO COMPRA E VENDA IMOVEL.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SENTENCAS CONTRATO COMPRA E VENDA IMOVEL INADIMPLENCIA DUAS PARTES PELA DP 0804136 27 2024.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SENTENCAS CONTRATO COMPRA E VENDA IMOVEL INADIMPLENCIA DUAS PARTES PELA DP 0804136 27 2024.docx
 Racional: exemplo forte de litigio contratual puro, bilateral, sem matriz central de CDC.
 
 03_SENTENCA\\03_FAZENDA_PUBLICA
 CANONICO 01 - SENTENCA - FAZENDA PUBLICA - SERVIDOR E PREVIDENCIARIO.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados\18 - MODELO - SENTENCA - DIREITO PUBLICO - SERVIDOR E PREVIDENCIARIO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados\18 - MODELO - SENTENCA - DIREITO PUBLICO - SERVIDOR E PREVIDENCIARIO.docx
 Racional: modelo amplo de direito publico para servidor, concurso e previdencia.
 
 CANONICO 02 - SENTENCA - FAZENDA PUBLICA - MAGISTERIO PISO NACIONAL.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\18 - MODELO - SENTENCA - MAGISTERIO - PISO NACIONAL.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\18 - MODELO - SENTENCA - MAGISTERIO - PISO NACIONAL.docx
 Racional: familia altamente recorrente e sensivel, com necessidade de matriz propria.
 
 CANONICO 03 - SENTENCA - FAZENDA PUBLICA - INSS E APOSENTADORIA.docx
-Origem: C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\19 - MODELO - SENTENCA - PREVIDENCIARIO - INSS E APOSENTADORIA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel\19 - MODELO - SENTENCA - PREVIDENCIARIO - INSS E APOSENTADORIA.docx
 Racional: modelo util para previdenciario comum e aposentadoria, complementando a frente de servidor estatutario.
 
 Observacoes finais

@@ -20,9 +20,9 @@
 - When a saneadora or prior decision already recognized the CDC or inverted the burden of proof, and the sentence family model usually reincorporates that premise in the reasoning, restate it expressly in the merits section with the concrete `ID` reference when relevant.
 - In consumer sentences, do not newly grant inversion of the burden of proof in the judgment itself. If the dossier shows a prior interlocutory ruling on the point, report that ruling with the proper `ID` or `Evento + sigla`. If there was no prior ruling and the case is already mature for judgment, treat the specific request as unnecessary or prejudiced at this stage and decide the merits from the concrete evidentiary distribution instead of writing `defiro a inversao do onus da prova`.
 - When condemnation details matter, consult first:
-  `C:\Users\Oswaldo-Nitro\.codex\skills\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`
+  `${GABINETE_SKILLS}\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`
 - Then cross-check, when pertinent:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
+  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
 - If the monetary condemnation crosses `30/08/2024`, prefer a dispositive with an express temporal cut. If all relevant terms begin after `30/08/2024`, prefer the cleaner post-law formula.
 - When adding jurisprudence in the body of the sentence or in an internal validation layer, prefer recent official precedents with equivalent authority and fit; if an older leading case remains useful, pair it with a newer official reaffirmation whenever possible.
 - In the reasoning, replace generic formulas such as `the evidentiary record shows` with explicit evidentiary anchors whenever the fact is decisive and the supporting proof is identifiable in the dossier.

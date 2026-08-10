@@ -20,7 +20,7 @@ Ela nao substitui:
 ## Skill da camada ampla
 
 Skill:
-- `C:\Users\Oswaldo-Nitro\.codex\skills\orquestrador-gabinete-tjrj`
+- `${GABINETE_SKILLS}\orquestrador-gabinete-tjrj`
 
 ## Comando oficial da automacao ampla
 
@@ -31,7 +31,7 @@ Executar automacao ampla do gabinete. Use apenas $orquestrador-gabinete-tjrj com
 ## Comando oficial do core
 
 ```text
-Executar automacao revisor. Use apenas as skills do revisor-processual-tjrj, ignore qualquer outra automacao/projeto, analise somente os arquivos .json da pasta que eu indicar, busque modelos em C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS e gere os provimentos finais em .docx.
+Executar automacao revisor. Use apenas as skills do revisor-processual-tjrj, ignore qualquer outra automacao/projeto, analise somente os arquivos .json da pasta que eu indicar, busque modelos em ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS e gere os provimentos finais em .docx.
 ```
 
 ## Regra de convivencia

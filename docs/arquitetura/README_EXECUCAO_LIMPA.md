@@ -24,7 +24,7 @@ Esta pasta foi criada para isolar a operação cotidiana da automação do revis
 ## Saída física preferencial
 Em razão de instabilidades de sincronização do OneDrive, a gravação dos provimentos finais deve priorizar a pasta local do notebook:
 
-`C:\Users\Oswaldo-Nitro\Documents\AUTOMACAO_PRINCIPAL_LOCAL\saida_docx`
+`${GABINETE_SAIDA}`
 
 Essa pasta local deve ser considerada a cópia principal da rodada.
 

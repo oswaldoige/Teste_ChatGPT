@@ -58,6 +58,7 @@ ehthumbs.db
 *.tmp.driveupload
 
 # Local secrets and machine-specific config
+config/ambiente.json
 .env
 .env.*
 *.local

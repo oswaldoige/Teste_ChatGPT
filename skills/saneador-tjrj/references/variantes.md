@@ -8,7 +8,7 @@ This file narrows the procedural branch after the macrofamilia material has alre
 
 ## 3o Nucleo 4.0 water and sewer
 - Prioritize the Nucleo 4.0 folder:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NUCLEO 4.0`
+  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NUCLEO 4.0`
 - Common issues: meter, inspection, consumption methodology, refaturamento, service coverage, and technical proof.
 - Do not postpone a necessary technical delimitation just because the matter looks repetitive.
 - Before treating the case as a saneador branch, confirm whether the true pending step is still a replica-pattern decision of the Nucleo. If there is contestation, a later petition alleging cumprimento da tutela, and no replica yet, use that replica decision first and only move to saneamento or sentence after the contraditorio is complete.

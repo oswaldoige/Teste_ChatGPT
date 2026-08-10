@@ -4,21 +4,24 @@
 - `docs\arquitetura\CLAUDE.md`
 - `docs\arquitetura\AUTOMACAO_REVISOR_PROCESSUAL.md`
 - `modelos`
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
+- `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 
 ## Model-search order
-1. `00_NUCLEO_OPERACIONAL`
-2. `00_PRIORITARIOS_AUTOMACAO`
+1. The curated nucleus in `modelos`, at the repository root
+2. `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 3. Specialized folder for the matter or chamber
 4. Correlated folders
 5. Reference PDFs when needed
 
+Steps 2 to 5 exist only where the wide archive is reachable. Without it, step 1 is
+the whole search, and a missing base model must be declared, never paraphrased.
+
 Special case:
-- For water and sewer cases from the 3o Nucleo de Justica 4.0 da Capital, prioritize `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NUCLEO 4.0`.
+- For water and sewer cases from the 3o Nucleo de Justica 4.0 da Capital, prioritize `${GABINETE_ACERVO}\NUCLEO 4.0`.
 
 Reference PDFs:
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - JTRAMOS.pdf`
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
+- `${GABINETE_ACERVO}\modelos_variados\98 - REFERENCIA - JTRAMOS.pdf`
+- `${GABINETE_ACERVO}\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
 
 Internal reference:
 - `${GABINETE_SKILLS}\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`

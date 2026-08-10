@@ -22,7 +22,7 @@ description: "Use when drafting civil judgments for TJRJ, especially in recurrin
 
 ## Output expectation
 - Preserve the TJRJ tone and the model family structure.
-- When a canonical sentence model already exists in `00_NUCLEO_OPERACIONAL`, treat it as the primary matrix and use the broader archive only as fallback or comparison support.
+- When a canonical sentence model already exists in the curated nucleus in `modelos`, treat it as the primary matrix and use the broader archive only as fallback or comparison support.
 - When a highly aderent family model exists, keep the sentence visibly anchored to that model's structure rather than drafting a fresh prose architecture.
 - When the decisive factual conclusion depends on identifiable proof, keep the reasoning tied to the main documentary or oral evidentiary anchors from the dossier, with `ID` in PJe or `Evento + sigla` in eproc/TJRJ.
 - Keep the reasoning in prose, without serial numbering of paragraphs.

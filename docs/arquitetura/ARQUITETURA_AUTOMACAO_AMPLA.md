@@ -83,7 +83,7 @@ Ela nao deve:
 ### Comando do core
 
 ```text
-Executar automacao revisor. Use apenas as skills do revisor-processual-tjrj, ignore qualquer outra automacao/projeto, analise somente os arquivos .json da pasta que eu indicar, busque modelos em ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS e gere os provimentos finais em .docx.
+Executar automacao revisor. Use apenas as skills do revisor-processual-tjrj, ignore qualquer outra automacao/projeto, analise somente os arquivos .json da pasta que eu indicar, busque modelos em ${GABINETE_ACERVO} e gere os provimentos finais em .docx.
 ```
 
 ### Comando reservado para a automacao ampla

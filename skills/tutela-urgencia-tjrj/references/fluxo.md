@@ -10,9 +10,9 @@
 
 ## Model lookup
 - General priority folder:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
+  `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 - Water and sewer / 3o Nucleo 4.0:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NUCLEO 4.0`
+  `${GABINETE_ACERVO}\NUCLEO 4.0`
 
 ## Drafting cautions
 - Use `Evento + sigla` or `ID` when the factual anchor matters.

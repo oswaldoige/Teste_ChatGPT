@@ -9,15 +9,20 @@
 - `modelos`
 
 ## Search order
-1. `00_NUCLEO_OPERACIONAL`
-2. `00_PRIORITARIOS_AUTOMACAO`
+1. The curated nucleus in `modelos`, at the repository root
+2. `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 3. Specialized folder for the matter or chamber
 4. Correlated archive folders
 5. Reference PDFs only when necessary
 
+Steps 2 to 5 exist only where the wide archive is reachable. Without it, step 1 is
+the whole search.
+
 ## Routing logic
-- First identify the provimento: `tutela`, `saneador`, or `sentenca`.
-- Then identify the macrofamilia: `consumidor`, `civel contratual`, or `Fazenda Publica`.
+- First identify the provimento: `despacho inicial`, `tutela`, `saneador`, or `sentenca`.
+- For the opening act, identify the rite: `rito comum`, `Fazenda Publica`, or
+  `execucao extrajudicial`. For the others, identify the macrofamilia:
+  `consumidor`, `civel contratual`, or `Fazenda Publica`.
 - Search the corresponding folder in the operational nucleus before opening the wider archive.
 
 ## Curatorship rule

@@ -41,7 +41,7 @@ Nucleo operacional local de modelos:
 `modelos`
 
 Biblioteca obrigatoria de modelos:
-`${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS`
+`${GABINETE_ACERVO}`
 
 Arquitetura recomendada de skills:
 - `${GABINETE_SKILLS}\revisor-base-tjrj`
@@ -65,10 +65,10 @@ Regra de isolamento operacional:
 - pastas e automacoes externas, como `Download_Processos`, `Scalp_Smart` e equivalentes, devem ser ignoradas por padrao, salvo ordem expressa e especifica do usuario para aquela execucao.
 
 Subpastas principais:
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0`
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel`
-- `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados`
+- `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
+- `${GABINETE_ACERVO}\NÚCLEO 4.0`
+- `${GABINETE_ACERVO}\2a_civel`
+- `${GABINETE_ACERVO}\modelos_variados`
 
 Arquivos de referencia importantes em `modelos_variados`:
 - `98 - REFERENCIA - JTRAMOS.pdf`
@@ -149,13 +149,13 @@ Ordem de busca:
 
 Prioridades praticas:
 - Curadoria reduzida para atos recorrentes e padronizacao-base:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
+  `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 - Agua e esgoto / 3o Nucleo de Justica 4.0 / Comarca da Capital:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0`
+  `${GABINETE_ACERVO}\NÚCLEO 4.0`
 - Materias civeis gerais do acervo:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\2a_civel`
+  `${GABINETE_ACERVO}\2a_civel`
 - Analogias, complementos e referencias gerais:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados`
+  `${GABINETE_ACERVO}\modelos_variados`
 
 Regra minima de consulta:
 - ler ao menos um modelo-base do tipo de ato;

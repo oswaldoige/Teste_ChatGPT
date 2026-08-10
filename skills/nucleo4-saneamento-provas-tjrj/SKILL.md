@@ -33,7 +33,7 @@ description: Use when a 3o Nucleo de Justica 4.0 water-and-sewer case already ha
 - Roteiro:
   `skills\nucleo4-saneamento-provas-tjrj\references\roteiro.md`
 - Modelo-base:
-  localizar em `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS` o arquivo `90 - EXEMPLO - EM - PROVAS - COM - SANEAMENTO.docx`, priorizando a pasta `NÚCLEO 4.0`
+  localizar em `${GABINETE_ACERVO}` o arquivo `90 - EXEMPLO - EM - PROVAS - COM - SANEAMENTO.docx`, priorizando a pasta `NÚCLEO 4.0`
 
 ## Guardrails
 

@@ -16,8 +16,20 @@ preferencia ja registrada em `AGENTS.md`.
 
 - `${GABINETE_RAIZ_2026}`
   Raiz do acervo de trabalho de 2026. Local: a pasta `2026` do OneDrive do
-  Tribunal. Dela descendem `AUTOMACAO_MODELOS`, a curadoria reduzida em
-  `00_PRIORITARIOS_AUTOMACAO`, o `NUCLEO 4.0`, `modelos_variados` e `2a_civel`.
+  Tribunal.
+
+- `${GABINETE_ACERVO}`
+  Raiz do acervo amplo de modelos, da qual descendem `00_PRIORITARIOS_AUTOMACAO`,
+  `NUCLEO 4.0`, `modelos_variados` e `2a_civel`. Variavel propria, e nao
+  subpasta de `${GABINETE_RAIZ_2026}`: a arvore do OneDrive foi reorganizada e o
+  acervo deixou de morar sob a pasta `2026`. Sem acervo alcancavel, resolve para
+  o nucleo curado em `modelos`, que passa a ser a busca inteira.
+
+- `${GABINETE_ACERVOS}`
+  Variante em lista de `${GABINETE_ACERVO}`, para quando houver mais de uma raiz
+  de acervo. Aceita varios caminhos separados por `os.pathsep` na variavel de
+  ambiente, ou lista em `config/ambiente.json`. A primeira raiz existente e a que
+  responde por `${GABINETE_ACERVO}`.
 
 - `${GABINETE_SKILLS}`
   Registracao viva das skills. Local: a pasta de skills do Codex. No repositorio,

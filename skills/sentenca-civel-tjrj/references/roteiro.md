@@ -22,7 +22,7 @@
 - When condemnation details matter, consult first:
   `${GABINETE_SKILLS}\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`
 - Then cross-check, when pertinent:
-  `${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
+  `${GABINETE_ACERVO}\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
 - If the monetary condemnation crosses `30/08/2024`, prefer a dispositive with an express temporal cut. If all relevant terms begin after `30/08/2024`, prefer the cleaner post-law formula.
 - When adding jurisprudence in the body of the sentence or in an internal validation layer, prefer recent official precedents with equivalent authority and fit; if an older leading case remains useful, pair it with a newer official reaffirmation whenever possible.
 - In the reasoning, replace generic formulas such as `the evidentiary record shows` with explicit evidentiary anchors whenever the fact is decisive and the supporting proof is identifiable in the dossier.

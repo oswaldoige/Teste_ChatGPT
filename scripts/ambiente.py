@@ -101,9 +101,22 @@ def caminhos() -> dict:
     }
 
 
+def acervo_principal() -> str:
+    """Devolve a raiz do acervo amplo, ou o nucleo curado quando ele nao existir.
+
+    A documentacao canonica referencia o acervo como um caminho unico. Quando ha
+    mais de uma raiz configurada, vale a primeira; quando nao ha nenhuma, como na
+    nuvem, o nucleo curado do repositorio e o unico ponto de partida legitimo, e e
+    para ele que as referencias devem resolver.
+    """
+    disponiveis = acervos()
+    return str(disponiveis[0]) if disponiveis else str(RAIZ_REPO / "modelos")
+
+
 def resolver(texto: str) -> str:
     """Substitui `${GABINETE_*}` pelos caminhos resolvidos do ambiente atual."""
-    valores = caminhos()
+    valores = dict(caminhos())
+    valores["GABINETE_ACERVO"] = acervo_principal()
     return PADRAO_VARIAVEL.sub(lambda m: valores.get(m.group(1), m.group(0)), texto)
 
 
@@ -150,7 +163,7 @@ def relatorio() -> dict:
         "acervo_completo_disponivel": acervo_completo_disponivel(),
         "acervos": [str(a) for a in acervos()],
         "nucleo_curado": str(RAIZ_REPO / "modelos"),
-        "caminhos": valores,
+        "caminhos": {**valores, "GABINETE_ACERVO": acervo_principal()},
     }
 
 

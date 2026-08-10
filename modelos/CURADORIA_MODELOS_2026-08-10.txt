@@ -1,0 +1,81 @@
+CURADORIA DE MODELOS CANONICOS - INCREMENTO
+Data: 2026-08-10
+Escopo: despachos iniciais
+
+Premissas
+- Mantidas as premissas da curadoria de 2026-03-26: os arquivos foram copiados,
+  e nao movidos; o acervo original permanece intacto como biblioteca de consulta.
+- Os arquivos foram copiados sem edicao de conteudo. Onde o modelo-base reune
+  varias redacoes alternativas em um unico documento, a estrutura foi preservada,
+  em vez de fatiada em arquivos novos, para nao afastar o texto do padrao ja
+  praticado pelo gabinete.
+- O nucleo operacional cobria tutela, saneador e sentenca, mas nao cobria o ato
+  que abre o feito. Este incremento fecha essa lacuna.
+
+Observacao sobre o eixo de separacao
+- Nas familias ja existentes, a separacao e por macrofamilia material:
+  consumidor, civel contratual e Fazenda Publica.
+- No despacho inicial, o que determina a redacao nao e a materia, e sim o rito:
+  o mesmo litigio consumerista e contratual recebe o mesmo despacho de abertura.
+  Por isso esta familia se separa por rito, e nao por materia.
+
+Regra de selecao da audiencia do art. 334
+- Preferencia registrada do magistrado: nao designar a audiencia do art. 334 nos
+  despachos iniciais quando o modelo aplicar a dispensa pela plataforma +Acordo.
+- O modelo-base do rito comum reune tres redacoes, nesta ordem: dispensa por
+  insucesso empirico da conciliacao; dispensa com manifestacao desfavoravel da
+  parte autora; e dispensa pela plataforma +Acordo do TJRJ.
+- A terceira redacao e a de uso preferencial. As duas primeiras ficam como
+  alternativas para o caso de a via institucional nao ser cabivel.
+- Atencao ao nome do arquivo de origem: `01 - DESPACHO INICIAL COMUM - AUD 334`
+  sugere designacao da audiencia, mas o conteudo faz o oposto, ou seja, dispensa
+  o ato nas tres redacoes. O nome canonico foi corrigido para refletir o conteudo.
+
+00_DESPACHO_INICIAL\01_RITO_COMUM
+CANONICO 01 - DESPACHO INICIAL - RITO COMUM - DISPENSA DA AUDIENCIA DO ART 334.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\01 - DESPACHO INICIAL COMUM - AUD 334.docx
+Racional: matriz de abertura do rito comum, com deferimento da gratuidade, dispensa
+fundamentada da audiencia do art. 334 e determinacao de citacao no prazo do art. 231.
+Concentra as tres redacoes de dispensa efetivamente usadas pelo gabinete, o que a
+torna o ponto de partida unico da familia.
+
+CANONICO 02 - DESPACHO INICIAL - RITO COMUM - REDISTRIBUICAO E IMPULSO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\NÚCLEO 4.0\02 - MODELO - DESPACHO - INICIAL E REDISTRIBUICAO.docx
+Racional: matriz para o primeiro despacho apos redistribuicao, quando o juizo de
+origem ja deferiu gratuidade ou tutela e ja houve citacao. Cobre a hipotese que o
+canonico 01 nao alcanca, com dispensa da audiencia pela via +Acordo, controle de
+mandato e certificacao de eventual agravo.
+
+00_DESPACHO_INICIAL\02_FAZENDA_PUBLICA
+CANONICO 01 - DESPACHO INICIAL - FAZENDA PUBLICA - CITACAO E DISPENSA DA AUDIENCIA.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\02 - DESPACHO INICIAL FAZENDA PUBLICA.docx
+Racional: a abertura contra a Fazenda Publica nao segue o canonico do rito comum,
+porque a dispensa da audiencia se da pelo art. 334, §4º, II, a citacao e pessoal
+perante o orgao de representacao e o prazo de contestacao e o do art. 183. Modelo
+proprio, e nao variacao.
+
+00_DESPACHO_INICIAL\03_EXECUCAO_EXTRAJUDICIAL
+CANONICO 01 - DESPACHO INICIAL - EXECUCAO EXTRAJUDICIAL - CITACAO PENHORA E ARRESTO.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\03 - DESPACHO INICIAL EXECUCAO EXTRAJUDICIAL.docx
+Racional: a execucao de titulo extrajudicial nao tem audiencia nem contestacao, e
+sim citacao para pagamento em tres dias, ordem de penhora e avaliacao no proprio
+mandado, arresto na forma do art. 830 e as advertencias dos arts. 827, §1º, 828 e
+916. Matriz completa e autossuficiente do rito.
+
+00_DESPACHO_INICIAL\90_BLOCOS_REUTILIZAVEIS
+BLOCO 01 - DESPACHO - GRATUIDADE - COMPROVACAO SUMULA 39 TJRJ.docx
+Origem: ${GABINETE_RAIZ_2026}\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\04 - DESPACHO COMPROVAR GRATUIDADE.docx
+Racional: entra como bloco, e nao como canonico, porque nao abre o feito: e o
+desdobramento do item de gratuidade quando a declaracao de hipossuficiencia nao
+vem acompanhada de prova. Traz a ancoragem no art. 99, §2º, do CPC e na Sumula 39
+do TJRJ, o rol de documentos exigidos e a advertencia do art. 290.
+Ressalva: o arquivo de origem e um caso concreto, com nomes reais das partes.
+Substituir a qualificacao antes de qualquer uso.
+
+Lacunas conhecidas, para o proximo incremento
+- Emenda da inicial e indeferimento liminar.
+- Despacho de citacao por edital e por hora certa.
+- Declinio de competencia, inclusive para a Justica Federal.
+- Familia de despachos de mero impulso, hoje dispersa em arquivos de compilacao
+  do acervo, que reunem anotacoes de trabalho e numeros de processos reais e por
+  isso nao foram promovidos a canonicos nesta rodada.

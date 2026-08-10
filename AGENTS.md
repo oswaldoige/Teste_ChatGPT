@@ -55,6 +55,9 @@ Preservar integralmente o conteudo juridico ja consolidado no projeto. A funcao 
 12. Preservacao do conteudo juridico consolidado.
     Se houver duvida entre embelezar e preservar, preservar.
 
+13. Adaptacao obrigatoria ao meio de entrada.
+    Se o ambiente nao aceitar upload operacional de `JSON` ou `PDF`, o agente deve migrar para entrada textual estruturada, sem exigir o Codex App e sem deformar a logica do projeto.
+
 ## Fluxo operacional minimo para agentes
 
 1. Ler primeiro:
@@ -87,6 +90,33 @@ Preservar integralmente o conteudo juridico ja consolidado no projeto. A funcao 
 
 11. Reabrir e revisar o arquivo final.
 
+## Fluxo minimo no Codex web
+
+Quando o agente estiver no navegador e nao puder receber `JSON` ou `PDF` de modo confiavel:
+
+1. Ler:
+   - `README.md`
+   - `AGENTS.md`
+   - `00_LEIA_PRIMEIRO.md`
+   - `docs\arquitetura\AUTOMACAO_REVISOR_PROCESSUAL.md`
+
+2. Solicitar ou usar entrada textual estruturada baseada em:
+   - `entrada_exemplos\TEMPLATE_ENTRADA_PROCESSO_WEB.md`
+
+3. Fechar primeiro:
+   - sistema;
+   - fase processual;
+   - ultimo ato relevante;
+   - peticoes posteriores;
+   - pendencia condicionante;
+   - ato cabivel;
+   - modelo-base aderente;
+   - gate formal.
+
+4. Somente depois seguir para minuta.
+
+5. Nao exigir upload de arquivo como precondicao quando a interface nao suportar esse tipo de anexo.
+
 ## Proibicoes especificas
 
 - Nao usar projetos laterais ou pastas estranhas como fonte.
@@ -95,6 +125,7 @@ Preservar integralmente o conteudo juridico ja consolidado no projeto. A funcao 
 - Nao reabrir replica ja esgotada em substancia.
 - Nao tratar ausencia de dado como autorizacao para inferencia livre.
 - Nao subir arquivos sensiveis, entradas reais de casos ou saidas finais geradas.
+- Nao mandar o usuario commitar processo real no GitHub apenas para viabilizar leitura no navegador.
 
 ## Preferencias de trabalho no repositorio
 

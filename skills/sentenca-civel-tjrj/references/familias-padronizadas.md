@@ -10,7 +10,7 @@ Before using this file, classify the case into the macrofamilia `consumidor`, `c
 
 ## Water and sewer / 3o Nucleo 4.0
 - Prioritize:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NUCLEO 4.0`
+  `${GABINETE_ACERVO}\NUCLEO 4.0`
 - Use the jurisprudence pack in that folder whenever the issue is repetitive but technically sensitive.
 
 ## Other frequent civil families
@@ -25,9 +25,9 @@ Before using this file, classify the case into the macrofamilia `consumidor`, `c
   Em acoes acidentarias contra o INSS, observar o art. 129, paragrafo unico, da Lei 8.213/91, evitando condenacao em custas e verbas sucumbenciais.
 - Piso nacional do magistério / remuneração de professor estadual
   Prioritize the sentence matrices in:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\18 - MODELO - SENTENCA - MAGISTERIO - PISO NACIONAL.docx`
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - MODELO SENTENCA PISO NACIONAL.docx`
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\2a_civel\90 - EXEMPLO - SENTENCA PISO MAGISTERIO 0805557 86 2023 8 19 0045.docx`
+  `${GABINETE_ACERVO}\2a_civel\18 - MODELO - SENTENCA - MAGISTERIO - PISO NACIONAL.docx`
+  `${GABINETE_ACERVO}\2a_civel\90 - EXEMPLO - MODELO SENTENCA PISO NACIONAL.docx`
+  `${GABINETE_ACERVO}\2a_civel\90 - EXEMPLO - SENTENCA PISO MAGISTERIO 0805557 86 2023 8 19 0045.docx`
   When one of these is strongly aderent, preserve its structure almost espelhadamente.
 
 ## Maintenance rule

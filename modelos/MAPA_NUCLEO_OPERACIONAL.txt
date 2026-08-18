@@ -6,13 +6,22 @@ Finalidade
 - Manter o restante de AUTOMACAO_MODELOS como acervo de consulta, sem apagar conhecimento ja acumulado.
 
 Regra de uso
-1. Identificar o provimento principal: tutela, saneador ou sentenca.
-2. Identificar a macrofamilia material: consumidor, civel contratual ou Fazenda Publica.
+1. Identificar o provimento principal: despacho inicial, tutela, saneador ou sentenca.
+2. No despacho inicial, identificar o rito: comum, Fazenda Publica ou execucao
+   extrajudicial. Nos demais provimentos, identificar a macrofamilia material:
+   consumidor, civel contratual ou Fazenda Publica.
 3. Procurar primeiro na pasta correspondente deste nucleo operacional.
 4. Se nao houver modelo canonico aderente, escalar para 00_PRIORITARIOS_AUTOMACAO.
 5. Persistindo a ausencia de aderencia, consultar as pastas especializadas e, so depois, o acervo correlato.
+6. No despacho inicial, nao designar a audiencia do art. 334 quando o modelo
+   aplicar a dispensa pela plataforma +Acordo do TJRJ.
 
 Estrutura
+- 00_DESPACHO_INICIAL
+  - 01_RITO_COMUM
+  - 02_FAZENDA_PUBLICA
+  - 03_EXECUCAO_EXTRAJUDICIAL
+  - 90_BLOCOS_REUTILIZAVEIS
 - 01_TUTELA
   - 01_CONSUMIDOR
   - 02_CIVEL_CONTRATUAL
@@ -38,3 +47,10 @@ Meta de curadoria
 - O acervo antigo permanece vivo como biblioteca de consulta e comparacao, sem ser mais o ponto de partida da automacao.
 - Hipoteses repetitivas de sentenca que ultrapassem simples variacao redacional devem ser registradas em mapa proprio da familia e, quando necessario, receber um novo modelo canonico e bloco reutilizavel especifico.
 - Na familia `03_SENTENCA/01_CONSUMIDOR`, consultar tambem `REGISTRO_HIPOTESES_RECORRENTES_CONSUMIDOR.md` sempre que surgir caso novo semelhante a matriz ja aprovada pelo usuario.
+- Em `00_DESPACHO_INICIAL`, a meta de 3 a 6 canonicos por pasta cede ao rito: onde o
+  ato de abertura e unico e estavel, um canonico basta, e a variacao fica dentro do
+  proprio modelo-base, sem gerar arquivo novo.
+
+Historico de curadoria
+- `CURADORIA_MODELOS_2026-03-25.txt`: curadoria inicial de tutela, saneador e sentenca.
+- `CURADORIA_MODELOS_2026-08-10.txt`: incremento dos despachos iniciais.

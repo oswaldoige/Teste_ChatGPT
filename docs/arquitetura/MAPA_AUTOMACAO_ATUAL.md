@@ -37,7 +37,7 @@ Funcao:
 - guardar o comando de inicio
 - separar entrada de `json` e saida de `.docx`
 - evitar mistura com testes e arquivos temporarios
-- manter como destino fisico preferencial dos `.docx` a pasta local `C:\Users\Oswaldo-Nitro\Documents\AUTOMACAO_PRINCIPAL_LOCAL\saida_docx`, deixando o OneDrive apenas como espelho opcional
+- manter como destino fisico preferencial dos `.docx` a pasta local `${GABINETE_SAIDA}`, deixando o OneDrive apenas como espelho opcional
 
 ## 3. Modelos enxutos
 

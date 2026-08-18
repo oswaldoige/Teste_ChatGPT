@@ -11,11 +11,11 @@ description: Executa revisão simulada de apelação (Tribunal Simulado TJRJ) so
 
 ## Etapas
 
-1. **Ler a skill** - Abrir e ler `C:\Users\Oswaldo-Nitro\.codex\skills\tribunal-simulado-apelacao-tjrj\SKILL.md` para carregar as instruções do tribunal simulado.
+1. **Ler a skill** - Abrir e ler `${GABINETE_SKILLS}\tribunal-simulado-apelacao-tjrj\SKILL.md` para carregar as instruções do tribunal simulado.
 
 2. **Ler as referências** - Abrir e ler os dois arquivos de referência:
-   - `C:\Users\Oswaldo-Nitro\.codex\skills\tribunal-simulado-apelacao-tjrj\references\roteiro-apelacao.md`
-   - `C:\Users\Oswaldo-Nitro\.codex\skills\tribunal-simulado-apelacao-tjrj\references\fontes-oficiais-apelacao.md`
+   - `${GABINETE_SKILLS}\tribunal-simulado-apelacao-tjrj\references\roteiro-apelacao.md`
+   - `${GABINETE_SKILLS}\tribunal-simulado-apelacao-tjrj\references\fontes-oficiais-apelacao.md`
 
 3. **Receber a lista de processos** - O usuário fornece os números dos processos e, quando houver mais de uma versão da sentença, identifica expressamente qual arquivo final deve ser revisado.
 

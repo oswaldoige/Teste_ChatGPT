@@ -53,6 +53,21 @@ Esta pasta consolida, em um unico lugar, o desenho mais atualizado da automacao 
 - `templates`
   Templates operacionais, inclusive gate formal.
 
+- `config`
+  Configuracao de ambiente por maquina. O arquivo efetivo `ambiente.json` nao e
+  versionado; use `ambiente.exemplo.json` como base.
+
+## Execucao local e execucao na nuvem
+
+O projeto roda na maquina do gabinete e tambem em sessao remota pelo GitHub. Os
+caminhos operacionais aparecem parametrizados como `${GABINETE_RAIZ_2026}`,
+`${GABINETE_SKILLS}` e `${GABINETE_SAIDA}`, e sao resolvidos por
+`scripts/ambiente.py` conforme o ambiente detectado.
+
+A diferenca material entre os dois ambientes esta no alcance do acervo de
+modelos e esta descrita em `docs\arquitetura\AMBIENTE.md`. O carregamento do
+`core` na sessao remota e feito pelo `CLAUDE.md` da raiz.
+
 ## O que foi deixado de fora de proposito
 
 - `processos` antigos
@@ -67,6 +82,6 @@ Esses itens existem como acervo historico nas pastas originais, mas nao ajudam a
 
 Esta pasta organiza a automacao em um hub unico, mas a registracao viva das skills ainda continua em:
 
-`C:\Users\Oswaldo-Nitro\.codex\skills`
+`${GABINETE_SKILLS}`
 
 Por isso, a pasta `skills` deve ser lida como espelho organizado e documentacao consolidada, nao como substituicao automatica da carga nativa do Codex.

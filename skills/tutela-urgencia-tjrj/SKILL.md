@@ -21,5 +21,5 @@ description: "Use when analyzing or drafting TJRJ urgent-relief rulings, includi
 
 ## Output expectation
 - Decide among defer, defer parcialmente, indefer, reconsiderar, complementar, or enforce.
-- Prefer the canonical tutela matrix from `00_NUCLEO_OPERACIONAL` whenever it is aderent.
+- Prefer the canonical tutela matrix from the curated nucleus in `modelos` whenever it is aderent.
 - Calibrate the measure to the proven risk instead of mechanically granting everything requested.

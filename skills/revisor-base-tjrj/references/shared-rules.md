@@ -4,25 +4,28 @@
 - `docs\arquitetura\CLAUDE.md`
 - `docs\arquitetura\AUTOMACAO_REVISOR_PROCESSUAL.md`
 - `modelos`
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO`
+- `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 
 ## Model-search order
-1. `00_NUCLEO_OPERACIONAL`
-2. `00_PRIORITARIOS_AUTOMACAO`
+1. The curated nucleus in `modelos`, at the repository root
+2. `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO`
 3. Specialized folder for the matter or chamber
 4. Correlated folders
 5. Reference PDFs when needed
 
+Steps 2 to 5 exist only where the wide archive is reachable. Without it, step 1 is
+the whole search, and a missing base model must be declared, never paraphrased.
+
 Special case:
-- For water and sewer cases from the 3o Nucleo de Justica 4.0 da Capital, prioritize `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NUCLEO 4.0`.
+- For water and sewer cases from the 3o Nucleo de Justica 4.0 da Capital, prioritize `${GABINETE_ACERVO}\NUCLEO 4.0`.
 
 Reference PDFs:
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - JTRAMOS.pdf`
-- `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
+- `${GABINETE_ACERVO}\modelos_variados\98 - REFERENCIA - JTRAMOS.pdf`
+- `${GABINETE_ACERVO}\modelos_variados\98 - REFERENCIA - MODELOS CONSECTARIOS TJRJ TEMA1368.pdf`
 
 Internal reference:
-- `C:\Users\Oswaldo-Nitro\.codex\skills\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`
-- `C:\Users\Oswaldo-Nitro\.codex\skills\revisor-base-tjrj\references\nucleo-operacional.md`
+- `${GABINETE_SKILLS}\revisor-base-tjrj\references\consectarios-civis-lei-14905.md`
+- `${GABINETE_SKILLS}\revisor-base-tjrj\references\nucleo-operacional.md`
 
 ## Shared legal and drafting rules
 - Strict-flow gate is mandatory. Before drafting any judicial act, close the following six internal answers: (1) system; (2) exact procedural phase and candidate act; (3) last relevant judicial act; (4) every supervening petition or incident after it; (5) unresolved procedural checkpoint, if any; and (6) exact base model path selected for drafting. If any of these answers is still uncertain, do not draft yet.

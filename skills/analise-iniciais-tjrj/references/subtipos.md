@@ -1,17 +1,17 @@
 # Subtypes
 
 ## Common procedure against private defendant
-- Base model: `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\01 - DESPACHO INICIAL COMUM - AUD 334.docx`
+- Base model: `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO\01 - DESPACHO INICIAL COMUM - AUD 334.docx`
 - Use this only when the case is truly a common civil filing and there is no more suitable special act.
 - If the author manifested disfavor toward the initial conciliation hearing, prefer the exact gabinete formula from the base model for the art. 334 passage and the citation command, with only factual adjustments strictly required by the case.
 
 ## Fazenda Publica
-- Base model: `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\02 - DESPACHO INICIAL FAZENDA PUBLICA.docx`
+- Base model: `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO\02 - DESPACHO INICIAL FAZENDA PUBLICA.docx`
 - Keep the Fazenda-specific regime: personal citation, service through the representation body, and 30-day answer period under arts. 242, paragrafo 3o, 247, III, 335, and 183 of the CPC.
 - Preserve the Fazenda-specific wording of the base model whenever it fits, instead of rewriting it into a generic citation order.
 
 ## Execution of extrajudicial title
-- Base model: `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\00_PRIORITARIOS_AUTOMACAO\03 - DESPACHO INICIAL EXECUCAO EXTRAJUDICIAL.docx`
+- Base model: `${GABINETE_ACERVO}\00_PRIORITARIOS_AUTOMACAO\03 - DESPACHO INICIAL EXECUCAO EXTRAJUDICIAL.docx`
 - Check title adequacy, amount, costs, citation for payment, and art. 827 honorarios.
 
 ## Usucapiao
@@ -20,9 +20,9 @@
 
 ## 3o Nucleo 4.0 water and sewer cases
 - Prioritize the specialized folder:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NUCLEO 4.0`
+  `${GABINETE_ACERVO}\NUCLEO 4.0`
 - For the first manifestation after redistribution, start from:
-  `C:\Users\Oswaldo-Nitro\OneDrive - Tribunal de Justica do Estado do Rio de Janeiro\2026\AUTOMACAO_MODELOS\NUCLEO 4.0\02 - MODELO - DESPACHO - INICIAL E REDISTRIBUICAO.docx`
+  `${GABINETE_ACERVO}\NUCLEO 4.0\02 - MODELO - DESPACHO - INICIAL E REDISTRIBUICAO.docx`
 - If the origin court already ruled on gratuity, tutela, citation, or remessa, the new act from the Nucleo must expressly acknowledge that prior ruling instead of behaving like a fresh untouched filing.
 - Preserve, when supported by the dossier, the standard gabinete opening sequence for this subtype:
   1. science of the redistribution and of the relevant ruling from the origin court;

@@ -23,6 +23,24 @@ O fluxo observado no acervo hoje se apoia em seis pilares:
 
 Os comandos-base foram concentrados em `comandos`.
 
+## Modo web-first
+
+Quando o ambiente de trabalho permitir apenas Codex web e o navegador nao aceitar `JSON` ou `PDF` como anexo operacional, este projeto deve ser usado em modo web-first.
+
+Nesse modo:
+
+1. o repositorio continua sendo a fonte de regras, modelos e comandos;
+2. o processo entra por texto estruturado colado na conversa;
+3. o fechamento de fase e gate ocorre antes de qualquer minuta;
+4. a redacao so vem depois da validacao do gate.
+
+Arquivos de apoio:
+
+- `docs\arquitetura\MODO_WEB_FIRST.md`
+- `entrada_exemplos\README.md`
+- `entrada_exemplos\TEMPLATE_ENTRADA_PROCESSO_WEB.md`
+- `comandos\COMANDO_WEB_ANALISE_ESTRITA.txt`
+
 ## Logica do fluxo principal
 
 O fluxo real do projeto, conforme a documentacao consolidada e os arquivos operacionais encontrados, pode ser resumido assim:
@@ -66,6 +84,8 @@ Pontos de referencia importantes:
 - Gate formal: `templates\TEMPLATE_GATE_FLUXO_ESTRITO.json`
 - Geracao de `.docx`: `scripts\make_docx.py`
 - Sumario de triagem: `scripts\summarize_triage.py`
+- Resolucao de ambiente: `scripts\ambiente.py` e `docs\arquitetura\AMBIENTE.md`
+- Carga do `core` em sessao remota: `CLAUDE.md` da raiz
 
 ## Como preparar o ambiente
 
@@ -82,6 +102,7 @@ A parametrizacao principal dos scripts permanentes ja foi feita. Ainda assim, a 
 2. Instalar as dependencias Python exigidas pelos scripts efetivamente usados.
 3. Conferir a disponibilidade local do `Tesseract OCR` e do `Poppler`, quando houver uso do pipeline PDF -> JSON.
 4. Evitar usar o OneDrive como destino principal de arquivos finais quando houver pasta local fisica preferencial configurada.
+5. Conferir a resolucao de caminhos com `python scripts/ambiente.py` antes da primeira rodada em uma maquina nova ou em sessao remota. Se quiser fixar caminhos proprios, copiar `config\ambiente.exemplo.json` para `config\ambiente.json` e ajustar.
 
 ## Como rodar
 
@@ -99,6 +120,32 @@ Uso pratico observado:
 3. Fechar o gate estrito antes da minuta.
 4. Produzir a minuta fonte.
 5. Gerar o `.docx` apenas depois da validacao formal.
+
+## Como usar no Codex web
+
+Fluxo recomendado para ambiente de trabalho sem Codex App:
+
+1. Abrir o repositorio no Codex web.
+2. Mandar o agente ler:
+   - `README.md`
+   - `AGENTS.md`
+   - `00_LEIA_PRIMEIRO.md`
+   - `docs\arquitetura\AUTOMACAO_REVISOR_PROCESSUAL.md`
+3. Copiar `entrada_exemplos\TEMPLATE_ENTRADA_PROCESSO_WEB.md`.
+4. Preencher os dados do processo em texto estruturado.
+5. Colar esse conteudo na conversa.
+6. Usar `comandos\COMANDO_WEB_ANALISE_ESTRITA.txt` para pedir:
+   - sistema;
+   - fase processual;
+   - ultimo ato relevante;
+   - peticoes posteriores;
+   - pendencia condicionante;
+   - ato cabivel;
+   - modelo-base aderente;
+   - gate formal.
+7. So depois pedir minuta.
+
+No modo web-first, a entrada do processo nao depende de upload de `JSON` ou `PDF`.
 
 ## Como gerar o gate
 
@@ -141,6 +188,12 @@ Entradas operacionais principais:
 - minuta fonte correspondente ao provimento
 - gate sidecar `.gate.json`
 
+Entradas alternativas para modo web-first:
+
+- texto colado na conversa com base em `entrada_exemplos\TEMPLATE_ENTRADA_PROCESSO_WEB.md`
+- `.md` ou `.txt` anonimizado para teste
+- exemplo sanitizado versionado em `entrada_exemplos`
+
 Entradas auxiliares:
 
 - modelos canonicos em `modelos`
@@ -170,6 +223,7 @@ Esses artefatos intermediarios nao devem ser tratados como acervo canonicamente 
 - Nao confundir modelos canonicos com saidas geradas de rodadas anteriores.
 - Nao subir ao repositorio dados reais de processos, saidas finais de casos ou artefatos temporarios.
 - Nao depender de caminhos absolutos de uma unica maquina; prefira parametrizacao.
+- No Codex web, nao depender de upload de arquivo se a interface do navegador nao aceitar o tipo necessario.
 - Reabrir sempre o `.docx` final para conferenciar acentuacao e coerencia.
 
 ## Fontes canonicamente mais relevantes
